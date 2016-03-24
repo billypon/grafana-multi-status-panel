@@ -1,0 +1,8 @@
+<div class="multi-status" ng-style="{height: ctrl.height}">
+  <ul>
+    <li style="width: {{ctrl.panel.size}}; height: {{ctrl.panel.size}}; border-color: {{ctrl.panel.color}}"  ng-repeat="point in ctrl.data track by $index">
+      <div style="background-color: {{ctrl.panel.color}}; opacity: {{(point.value * 0.9 + 0.1)}}" title="{{point.target}}">
+      </div>
+    </li>
+  </ul>
+</div>

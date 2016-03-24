@@ -1,0 +1,33 @@
+{
+  "type": "panel",
+  "name": "Multi Status",
+  "id": "multi-status",
+
+  "info": {
+    "description": "Multi status panel for grafana",
+    "author": {
+      "name": "Cillié Malan",
+      "url": "https://grafana.com"
+    },
+    "keywords": ["multi", "status", "panel"],
+    "logos": {
+      "small": "src/img/clock_panel_logo.svg",
+      "large": "src/img/clock_panel_logo.svg"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/grafana/clock-panel"},
+      {"name": "MIT License", "url": "https://github.com/grafana/clock-panel/blob/master/LICENSE"}
+    ],
+    "screenshots": [
+      {"name": "Showcase", "path": "src/img/screenshot-showcase.png"},
+      {"name": "Options", "path": "src/img/screenshot-clock-options.png"}
+    ],
+    "version": "1.0.0",
+    "updated": "2017-10-03"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}

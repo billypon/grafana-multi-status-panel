@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["MultiStatus"],"mappings":";;;;;;;;AAAQA,iB,gBAAAA,W;;;2BAGNA,W","file":"module.js","sourcesContent":["import {MultiStatus} from './multistatus';\n\nexport {\n  MultiStatus as PanelCtrl\n};\n"]}
